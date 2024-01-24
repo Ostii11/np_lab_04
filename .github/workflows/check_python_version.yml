@@ -3,6 +3,7 @@ name: Check Python Version
 on:
   push:
     branches:
+      - master
       - check_python_version
 
 jobs:

@@ -3,6 +3,7 @@ name: Check Syntax
 on:
   push:
     branches:
+      - master
       - check_syntax
 
 jobs:
